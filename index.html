@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Channel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+	<div class="weather">
+		<iframe src="http://wben.accu-weather.com/wben/forecast.asp"></iframe>
+	</div>
+    <div class="controls">
+      <button onclick="location.href='https://isaacthesoap.github.io/welcome'" id="returntomenu">Welcome Menu</button>
+      <button onclick="location.href='https://globe.larsenv.xyz/'" id="globe">Spin the Globe!</button>
+    </div>
+  </div>
+  
+ <audio id="hoverSound" src="snd/hover.mp3" preload="auto"></audio>
+<audio id="clickSound" src="snd/click.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+<audio id="bgm" src="snd/bgm.mp3" loop></audio>
+</html>
+
+
